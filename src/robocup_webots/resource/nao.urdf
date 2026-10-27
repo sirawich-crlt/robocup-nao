@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<robot name="nao">
+  <webots>
+    <device reference="CameraTop" type="Camera">
+      <ros>
+        <topicName>/nao/camera</topicName>
+        <alwaysOn>true</alwaysOn>
+        <updateRate>10</updateRate>
+      </ros>
+    </device>
+
+    <plugin type="robocup_webots.nao_driver.NaoDriver" />
+  </webots>
+</robot>
