@@ -127,7 +127,6 @@ Nao {
   controller "<extern>"
 }
 
-
 Solid {
   translation 0 0 0.07
   name "ball"
@@ -140,7 +139,7 @@ Solid {
   boundingObject USE BALL
   physics Physics {
     density -1
-    mass 0.
+    mass 0.2
     damping Damping { linear 0.17 angular 0.33 }
   }
 }
